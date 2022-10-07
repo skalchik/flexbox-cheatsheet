@@ -1,0 +1,70 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    background-image: url(./images/528195.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    background-color: lightcoral;
+}
+h2 {
+    color: lightcyan;
+}
+table {
+    border: darkslateblue 2px solid;
+    margin: auto;
+    padding: 0px 10px;
+    width: 100%;
+}
+th {
+    padding: 5px;
+    color: lightgray;
+}
+td {
+    padding: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 25px;
+    max-height: 25px;
+    border: cornflowerblue 1px solid;
+    transition: font-size 0.25s ease-in-out 0s;
+}
+.color td:hover,
+.no-color td:hover {
+    font-size: 1.6rem;
+    padding: 1px;
+}
+.color {
+    background-color: rgb(100, 149, 237, 0.75);
+    color: cornsilk;
+}
+.no-color {
+    background-color: rgb(250, 235, 215, 0.75);
+}
+.term {
+    font-family: monospace;
+}
+.color .term {
+    background-color: rgb(100, 149, 237);
+}
+.no-color .term {
+    background-color: rgb(250, 235, 215);
+}
+tfoot {
+    column-span: all;
+    align-content: right;
+}
+#foot {
+    font-size: .5em;
+    color: grey;
+    margin: 10px 0px;;
+    width: 100px;
+    float: left;
+    background-color: rgb(250, 235, 215, 0.75);
+    transition: transform 1s 0.15s;
+}
+#foot:hover {
+    transform: rotate(360deg);
+}
