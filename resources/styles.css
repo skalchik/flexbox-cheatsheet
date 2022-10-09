@@ -28,12 +28,12 @@ td {
     margin-right: 0;
     border: cornflowerblue 1px solid;
     transition: font-size 0.25s ease-in-out 0s;
+    cursor: crosshair;
 }
 .color td:hover,
 .no-color td:hover {
     font-size: 1.6rem;
     padding: 1px;
-    cursor: crosshair;
 }
 .color {
     background-color: rgb(100, 149, 237, 0.75);
@@ -64,8 +64,8 @@ tfoot {
     background-color: rgb(250, 235, 215, 0.75);
     transition: transform 1s 0.15s;
     align-items: center;
+    cursor: pointer;
 }
 #foot:hover {
     transform: rotate(360deg);
-    cursor: pointer;
 }
