@@ -33,6 +33,7 @@ td {
 .no-color td:hover {
     font-size: 1.6rem;
     padding: 1px;
+    cursor: crosshair;
 }
 .color {
     background-color: rgb(100, 149, 237, 0.75);
@@ -66,4 +67,5 @@ tfoot {
 }
 #foot:hover {
     transform: rotate(360deg);
+    cursor: pointer;
 }
